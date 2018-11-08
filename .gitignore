@@ -9,6 +9,7 @@
 # testing
 /fereact/coverage
 
-
+# pyc
+**/*.pyc
 
 

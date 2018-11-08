@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 
-from beth.controller.home import home_index
+import beth.controller.home
 
 
 def Register_Blueprints(app):
 
-    app.register_blueprint(home_index)
+    app.register_blueprint(home.home_index)
    
